@@ -8,15 +8,3 @@ if (x <= y) {
 }
 
 // {x <= y ? console.log("Can you hear me now?") : console.log("NO maybe you should shutup")}
-
-book = {
-    title: 'Coding',
-    pages: 123,
-    cover: 'hard-cover'
-}
-
-bookV2 = {
-    ...book,
-    pages: 140,
-    author: 'Steve'
-}
