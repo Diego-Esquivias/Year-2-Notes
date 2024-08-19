@@ -8001,15 +8001,15 @@ const people = [
     },
     ];
 
-// let neededDrinks = {}
+let neededDrinks = {}
 
-// people.forEach((person) => {
-//     const {drink} = person
-//     neededDrinks[drink] ? neededDrinks[drink] ++ : neededDrinks[drink] = 1
-//     console.log(neededDrinks[drink])
-// })
+people.forEach((person) => {
+    const {drink} = person
+    neededDrinks[drink] ? neededDrinks[drink] ++ : neededDrinks[drink] = 1
+    console.log(neededDrinks[drink])
+})
 
-// console.log(neededDrinks)
+console.log(neededDrinks)
 
 // const numbers = [23, 41, 62, 18, 2077, 76, 84]
 
@@ -8019,9 +8019,9 @@ const people = [
 
 // console.log(num)
 
-let kaines = people.filter((person) => {
-    const {name} = person
-    return name.includes('Kaine')
-})
+// let kaines = people.filter((person) => {
+//     const {name} = person
+//     return name.includes('Kaine')
+// })
 
-console.log(kaines)
+// console.log(kaines)
