@@ -1,0 +1,15 @@
+{
+  "name": "year-2-notes",
+  "version": "1.0.0",
+  "description": "Year 2 Node - React",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon NodeJS/globals.js"
+  },
+  "author": "Diego Esquivias",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
